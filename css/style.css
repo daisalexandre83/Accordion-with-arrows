@@ -43,10 +43,6 @@
   margin-right: 10px;
   width: 0; 
   height: 0; 
-
-  /*border-left: 5px solid #ffffff;
-  border-right: 5px solid  #ffffff;
-   border-top: 5px solid transparent; */
   border: solid white;
   border-width: 0 2px 2px 0;
   display: inline-block;
@@ -59,32 +55,22 @@
 
 
 .menu.active::after{
-  display: block;
   content:'';
-  /* background-color:red; */
-  width: 100%;
-  display: none;
-  height: 16px;
-  position: absolute;
-  left: -1px;
-  border-left: 1px solid #000;
-  border-right: 1px solid #000;
+  display: block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 0; 
+  height: 0;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  padding: 3px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  margin-left: 65px;
 }
 
 .menu.active .menu-content{
   display: block;
-}
-
-
-/* Quando clicar na seta mostrará o conteúdo e a seta mudara de sentido. */
-.menu.active .menu-content::after{
-  display: block;
-  border: solid blue;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
-  transform: rotate(-135deg);
-  -webkit-transform: rotate(-135deg);
 }
 
 .newsletter{
