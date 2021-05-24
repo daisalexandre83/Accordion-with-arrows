@@ -1,6 +1,6 @@
 .menu{
   display: inline-block;
-  background-color: #000;
+  background-color:#0ff;
   color: #fff;
   padding: 10px;
   position: relative;
@@ -12,7 +12,7 @@
 }
 
 .menu:hover{
-  background-color: #fff;
+  background-color:black;
   color: #000;
   border-color: #000;
 }
@@ -36,29 +36,24 @@
   user-select: none;
 }
 
-.menu a::after{
+/*.menu::after{
   content:'';
   display: inline-block;
-  vertical-align: middle;
-  margin-right: 10px;
   width: 0; 
   height: 0; 
   border: solid white;
   border-width: 0 2px 2px 0;
-  display: inline-block;
   padding:3px;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   margin-left: 5px;
-}
+}*/
 
 
 
-.menu.active::after{
+/*.menu.active::after{
   content:'';
   display: block;
-  vertical-align: middle;
-  margin-right: 10px;
   width: 0; 
   height: 0;
   border: solid white;
@@ -67,6 +62,13 @@
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
   margin-left: 65px;
+}*/
+
+#
+
+
+menu-down{
+  transform: rotate(0deg);
 }
 
 .menu.active .menu-content{
