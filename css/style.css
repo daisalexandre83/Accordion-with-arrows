@@ -1,6 +1,6 @@
 .menu{
   display: inline-block;
-  background-color:#0ff;
+  /*background-color:#0ff;*/
   color: #fff;
   padding: 10px;
   position: relative;
@@ -11,19 +11,28 @@
   user-select: none;
 }
 
+.menu a{
+  text-decoration: none;
+  background: #ffffff;
+}
 
-.menu i{
-  transition: all 0.4s ease;
+ a:hover{
+  background:#ffffff;
+  text-decoration: underline;
+  color:BLUE;
 }
 
 
-.menu i:hover {
+.menu i:active{
   transform: rotatez(180deg);
 }
 
+/*.menu i:visited{
+  transform: rotatez(180deg);
+}*/
 
 .menu:hover{
-  background-color:black;
+  background-color:#ffffff;
   color: #000;
   border-color: #000;
 }
